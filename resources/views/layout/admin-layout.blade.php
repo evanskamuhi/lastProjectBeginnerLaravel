@@ -13,39 +13,39 @@
 
         <div class="p-6 flex-1">
             <div class="flex flex-col gap-2">
-                <a href="{{ route("admin.dashboard") }}" class="rounded-full py-2 px-4 flex items-center font-medium {{ request()->routeIs("admin.dashboard") ? "bg-blue-600 text-white hover:bg-blue-700" : "hover:bg-blue-100"}}">
+                <a href="{{ route("admin.dashboard") }}" class="rounded-full py-2 px-4 flex items-center font-medium {{ request()->routeIs("admin.dashboard") ? "bg-gradient-to-t text-white from-blue-600 to-blue-500 hover:from-blue-700 hover:to-blue-600" : "hover:bg-blue-100 text-blue-900"}}">
                     <label class="w-[36px]">
                         <i class="fa-solid fa-house"></i>
                     </label>
                     Dashboard
                 </a>
-                <a href="{{ route("admin.order") }}" class="rounded-full py-2 px-4 flex items-center font-medium {{ request()->routeIs("admin.order") ? "bg-blue-600 text-white hover:bg-blue-700" : "hover:bg-blue-100" }}">
+                <a href="{{ route("admin.order") }}" class="rounded-full py-2 px-4 flex items-center font-medium {{ request()->routeIs("admin.order") ? "bg-gradient-to-t text-white from-blue-600 to-blue-500 hover:from-blue-700 hover:to-blue-600" : "hover:bg-blue-100 text-blue-900" }}">
                     <label class="w-[36px]">
                         <i class="fa-solid fa-cart-plus"></i>
                     </label>
                     Order
                 </a>
-                <a href="{{ route("admin.menu") }}" class="rounded-full py-2 px-4 flex items-center font-medium {{ request()->routeIs("admin.menu") ? "bg-blue-600 text-white hover:bg-blue-700" : "hover:bg-blue-100" }}">
+                <a href="{{ route("admin.menu") }}" class="rounded-full py-2 px-4 flex items-center font-medium {{ request()->routeIs("admin.menu") ? "bg-gradient-to-t text-white from-blue-600 to-blue-500 hover:from-blue-700 hover:to-blue-600" : "hover:bg-blue-100 text-blue-900" }}">
                     <label class="w-[36px]">
                         <i class="fa-solid fa-clipboard"></i> </label>
                     Menu
                 </a>
-                <a href="{{ route("admin.user") }}" class="rounded-full py-2 px-4 flex items-center font-medium {{ request()->routeIs("admin.user") ? "bg-blue-600 text-white hover:bg-blue-700" : "hover:bg-blue-100" }}">
+                <a href="{{ route("admin.user") }}" class="rounded-full py-2 px-4 flex items-center font-medium {{ request()->routeIs("admin.user") ? "bg-gradient-to-t text-white from-blue-600 to-blue-500 hover:from-blue-700 hover:to-blue-600" : "hover:bg-blue-100 text-blue-900" }}">
                     <label class="w-[36px]">
                         <i class="fa-solid fa-user"></i> </label>
                     Pengguna
                 </a>
-                <a href="{{ route("admin.seller") }}" class="rounded-full py-2 px-4 flex items-center font-medium {{ request()->routeIs("admin.seller") ? "bg-blue-600 text-white hover:bg-blue-700" : "hover:bg-blue-100" }}">
+                <a href="{{ route("admin.seller") }}" class="rounded-full py-2 px-4 flex items-center font-medium {{ request()->routeIs("admin.seller") ? "bg-gradient-to-t text-white from-blue-600 to-blue-500 hover:from-blue-700 hover:to-blue-600" : "hover:bg-blue-100 text-blue-900" }}">
                     <label class="w-[36px]">
                         <i class="fa-solid fa-user-tie"></i> </label>
                     Penjual
                 </a>
-                <a href="{{ route("admin.comment") }}" class="rounded-full py-2 px-4 flex items-center font-medium {{ request()->routeIs("admin.comment") ? "bg-blue-600 text-white hover:bg-blue-700" : "hover:bg-blue-100" }}">
+                <a href="{{ route("admin.comment") }}" class="rounded-full py-2 px-4 flex items-center font-medium {{ request()->routeIs("admin.comment") ? "bg-gradient-to-t text-white from-blue-600 to-blue-500 hover:from-blue-700 hover:to-blue-600" : "hover:bg-blue-100 text-blue-900" }}">
                     <label class="w-[36px]">
                         <i class="fa-solid fa-comment"></i> </label>
                     Komentar
                 </a>
-                <a href="{{ route("admin.history") }}" class="rounded-full py-2 px-4 flex items-center font-medium {{ request()->routeIs("admin.history") ? "bg-blue-600 text-white hover:bg-blue-700" : "hover:bg-blue-100" }}">
+                <a href="{{ route("admin.history") }}" class="rounded-full py-2 px-4 flex items-center font-medium {{ request()->routeIs("admin.history") ? "bg-gradient-to-t text-white from-blue-600 to-blue-500 hover:from-blue-700 hover:to-blue-600" : "hover:bg-blue-100 text-blue-900" }}">
                     <label class="w-[36px]">
                         <i class="fa-solid fa-clock-rotate-left"></i> </label>
                     Riwayat
